@@ -2,7 +2,6 @@ name: Bug Report
 description: File a bug report.
 title: "bug: "
 labels: ["file:auto", "type:bug"]
-type: bug
 body:
   - type: markdown
     attributes:

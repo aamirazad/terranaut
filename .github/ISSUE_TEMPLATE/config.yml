@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug Report
+    url: https://github.com/aamirazad/terranaut/issues/new?template=bug-report.yml
+    about: Please file bug reports here.
+  - name: GitHub Q&A
+    url: https://github.com/aamirazad/terranaut/discussions/categories/q-a
+    about: Please ask and answer questions here.
+  - name: GitHub Feature Requests
+    url: https://github.com/aamirazad/terranaut/discussions/categories/feature-requests
+    about: Propose new functionality here.
+  - name: GitHub Security Bug Bounty
+    url: https://github.com/aamirazad/terranaut/security/policy
+    about: Please report security vulnerabilities here.

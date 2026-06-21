@@ -12,7 +12,7 @@ Terranaut is an open-source gamified workout app designed to encourage users to 
 ## Core Philosophy
 
 - **Zero Telemetry Leaks**: To prevent location tracking via scraped imagery, all photos are verified to be clear of location data.
-- **Home Location Protection**: All activities done near your home do not feature any location data. But by all means, flex that Grand Canyon run
+- **Home Location Protection**: All activities done near your home do not feature any location data. But by all means, flex that Grand Canyon run.
 - **Open-source & Lean**: Our applications and website are open source and built with robust technologies ensuring you have a consistent, fun experience every time you open the app.
 
 ## Tech Stack Overview
@@ -32,17 +32,17 @@ Built for speed, longevity, and reliability, Terranaut utilizes a robust polyglo
 
 This roadmap will be moved to our website soon.
 
-- [] Basic website launch
-- [] API and Database functionality
-- [] MPV Website use
-- [] MPV Mobile App use
-- [] Workout creation via API
-- [] Workout edit, delete, and view
-- [] JWT Authentication
-- [] PostGIS integrated with workouts
-- [] Cloudflare R2 (S3) configuration for media storage
-- [] User Onboarding via "Sign in with Google" (OAuth2)
-- [] Health tracking sync handlers (Fitbit cloud webhooks)
-- [] Camera and quick-note interface for check-ins
-- [] Fitbit API inegration
-- [] Apple Heath intergration
+- [ ] Basic website launch
+- [ ] API and Database functionality
+- [ ] MPV Website use
+- [ ] MPV Mobile App use
+- [ ] Workout creation via API
+- [ ] Workout edit, delete, and view
+- [ ] JWT Authentication
+- [ ] PostGIS integrated with workouts
+- [ ] Cloudflare R2 (S3) configuration for media storage
+- [ ] User Onboarding via "Sign in with Google" (OAuth2)
+- [ ] Health tracking sync handlers (Fitbit cloud webhooks)
+- [ ] Camera and quick-note interface for check-ins
+- [ ] Fitbit API inegration
+- [ ] Apple Heath intergration

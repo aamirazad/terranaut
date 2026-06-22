@@ -1,0 +1,16 @@
+title: 'feat: '
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this form to request new features for Terranaut.
+        Stick to only a single feature per request. Please submit a separate request for each feature you want to propose.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: Your feature request
+      description: Please describe the feature, be as detailed as possible. Screenshots, code snippets, and links to related issues or pull requests are very helpful.
+    validations:
+      required: true

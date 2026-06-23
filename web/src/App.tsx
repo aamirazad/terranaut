@@ -39,7 +39,7 @@ function App() {
 						</li>
 						<li>
 							<a href="https://react.dev/" target="_blank" rel="noopener">
-								Learn more
+								Learn about Vite
 							</a>
 						</li>
 					</ul>

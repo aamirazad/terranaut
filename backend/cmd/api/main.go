@@ -13,10 +13,9 @@ func main() {
 	mux.HandleFunc("GET /api", healthCheckHandler)
 	mux.HandleFunc("GET /api/health", healthCheckHandler)
 
-
 	port := ":3001"
 	log.Printf("Terranaut Backend API running on port %s", port)
-	
+
 	if err := http.ListenAndServe(port, mux); err != nil {
 		log.Fatalf("Server failed to start: %v", err)
 	}
@@ -26,7 +25,7 @@ func main() {
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(map[string]string{
-		"status": "healthy",
+		"status":  "healthy",
 		"service": "Terranaut API",
 	})
 }
